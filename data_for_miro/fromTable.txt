@@ -1,0 +1,1283 @@
+<h2 class="auto-cursor-target">Pulse Summary:</h2>
+<p>
+  <ac:structured-macro ac:macro-id="820fdf69-4018-40be-a8f6-63dd7ce7d467" ac:name="view-file" ac:schema-version="1">
+    <ac:parameter ac:name="name">
+      <ri:attachment ri:filename="engx-pulse-pi13-summary.mp4"/>
+    </ac:parameter>
+    <ac:parameter ac:name="height">400</ac:parameter>
+  </ac:structured-macro>
+</p>
+<h2 class="auto-cursor-target">Feedback for: IT</h2>
+<table class="relative-table wrapped" style="width: 95.1087%;">
+  <colgroup>
+    <col style="width: 8.80503%;"/>
+    <col style="width: 18.0675%;"/>
+    <col style="width: 24.5283%;"/>
+    <col style="width: 18.8679%;"/>
+    <col style="width: 18.1246%;"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>
+        <p>Priority</p>
+        <p>
+          <em>(number of upvotes)</em>
+        </p>
+      </th>
+      <th>Summary</th>
+      <th>Desired State (at end of 2022)</th>
+      <th colspan="1">Actions for EngX</th>
+      <th colspan="1">Actions for Engineers</th>
+    </tr>
+    <tr>
+      <td colspan="1">25</td>
+      <td colspan="1">
+        <p>It has been a long time since the $1000 work from home allowance to improve home set ups and many folks have now moved to working with their IT Managed laptops and their old docking stations are no longer compatible.</p>
+        <p>Engineers want to be able to request equipment to WFH easier.</p>
+        <p>Specific requests include:</p>
+        <p>(4) - laptop dock and graphics card that can support home multiple monitor setup</p>
+      </td>
+      <td colspan="1">
+        <ul>
+          <li>Choice of working from home or from the office</li>
+          <li>Clear and easy ways to request additional resources to work from home comfortably</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>17</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Relay to engineering management and encourage managers to follow up</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>18</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Create a recommended set up</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <p>Add your name here if you are willing to tell us more about your work from home set up troubles:</p>
+        <ul>
+          <li>@&lt;your name&gt;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">18</td>
+      <td colspan="1">Engineers have to log in too many times per day</td>
+      <td colspan="1">
+        <ul>
+          <li>all services using SSO</li>
+          <li>log ins per day measured</li>
+          <li>log ins per day reduced</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>6</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">feedback to IT</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>7</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">request measurement from IT from data from okta</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>8</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">conduct usability interviews</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>119</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">anecdotal samples for reference (e.g. manually measure time to login to Jira from cold boot of system)</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <p>Add your name here if you are willing to tell us more about sign in troubles:</p>
+        <ul>
+          <li>@&lt;your name&gt;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Screen saver time-out (15 seconds) is too short on IT managed laptops</td>
+      <td>
+        <p>Either:</p>
+        <ul>
+          <li>A longer time out</li>
+          <li>Administrator of laptops so engineers can change this setting</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>9</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to IT</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>10</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Ensure resolution is distributed and known</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Some Engineers (particularly in EMEA/APAC) do not have their IT managed laptops yet and do not know when to expect them</td>
+      <td>
+        <ul>
+          <li>all engineers are on the IT managed laptops</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>19</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Message managers channel to ensure regular conversation is happening</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>20</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Talk to IT and check distribution updates are still going out</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <ul>
+          <li>Talk to your manager if you don't have yours yet, make sure they know that you are still waiting and they should have access to the distribution infomation</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">4</td>
+      <td colspan="1">IT Managed Laptop is working as expected, VPN set up automatically and workspace app launching</td>
+      <td colspan="1">
+        <ul>
+          <li>IT Managed Laptop is working as expected</li>
+          <li>VPN set up automatically and workspace app launching</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>21</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Refer back to IT as a user requirement</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>22</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Look into expanding EngX tooling to enable this with CLI command</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">EngX Pepper project does not yet o all of this but it can help set up project specific programs, check it out here: <ac:link>
+          <ri:page ri:content-title="Pepper Documentation"/>
+        </ac:link>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">3</td>
+      <td colspan="1">Access Gateway (Citrix SSO) network stability needs to be improved since currently daily reboots are required</td>
+      <td colspan="1">
+        <ul>
+          <li>daily reboots no longer required due to improved stability or workloads moved to EDaaS</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>28</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">include in list to feedback to IT</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">2</td>
+      <td colspan="1">Need a permeant solution for developers working on clients which need physical devices plugged in (flash drives, table/pen input devices, etc). Can't use EDaaS. Need local admin. Temp waiver in place currently.</td>
+      <td colspan="1">
+        <p>Either:</p>
+        <ul>
+          <li>Administrator of laptops as default</li>
+          <li>Other permanent solution</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>29</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">include in list to feedback to IT</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>30</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Keep an eye on the problem space incase Admin is not granted</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <p>Add your name here if you are willing to tell us more about plugging in physical devices:</p>
+        <ul>
+          <li>@&lt;your name&gt;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">
+        <p>Engineering had a series of minor qualms with the IT Managed Laptops:</p>
+        <ol>
+          <li>Bookmark external sites such as miro in chrome on IT manage laptops</li>
+          <li>Extend monitors for IT Managed MacBooks</li>
+          <li>Citrix Wallpapers</li>
+        </ol>
+      </td>
+      <td colspan="1">
+        <p>Either:</p>
+        <ul>
+          <li>Resolution to issues</li>
+          <li>Administrator of laptops so engineers can change these settings</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>31</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">feedback to IT</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>32</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">ensure resolution is distributed/known</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="auto-cursor-target">
+  <br/>
+</p>
+<h2 class="auto-cursor-target">Feedback for: Security GSO</h2>
+<table class="relative-table wrapped" style="width: 95.1087%;">
+  <colgroup>
+    <col style="width: 8.80503%;"/>
+    <col style="width: 18.0675%;"/>
+    <col style="width: 24.5283%;"/>
+    <col style="width: 18.8679%;"/>
+    <col style="width: 18.1246%;"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>
+        <p>Priority</p>
+        <p>
+          <em>(number of upvotes)</em>
+        </p>
+      </th>
+      <th>Summary</th>
+      <th>Desired State (at end of 2022)</th>
+      <th colspan="1">Actions for EngX</th>
+      <th colspan="1">Actions for Engineers</th>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Issues with the amount of different security agents, their stability and the education around them</td>
+      <td>
+        <ul>
+          <li>
+            <span class="placeholder-inline-tasks">Engineers are aware of a single page where they can go to find out more about security agents</span>
+          </li>
+          <li>
+            <span class="placeholder-inline-tasks">Security agents installs and upgrades are managed in a standardised way</span>
+          </li>
+          <li>
+            <span class="placeholder-inline-tasks">Security agents are stable</span>
+          </li>
+          <li>
+            <span class="placeholder-inline-tasks">Security Agents discussed more frequently (not just when we need a new one / to update!) and training available</span>
+          </li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>44</ac:task-id>
+<ac:task-status>complete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Publicise the pages and information we have access to </span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>45</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Relay these actions to GSO and GLIS as requests</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>46</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Follow up</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">Check out this document on Security Agents and feedback any questions there or the slack channel provided: <ac:link>
+          <ri:page ri:content-title="Security Agents" ri:space-key="EI"/>
+        </ac:link>
+      </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Before requesting the deployment of any security solution, it would be preferable to have an Ansible module or some common scripts ready for others to use.</td>
+      <td>
+        <ul>
+          <li>Requests for deployment/upgrades of tools are given alongside automation, where possible.</li>
+          <li>Automation is crowd sourced and shared across engineering</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>47</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Relay this request to GSO, GLIS and pipeline teams</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>48</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Relay this request to engineering management so they know this is what engineers want</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>49</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Follow up when we see requests without automation</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+        <p>
+          <span class="placeholder-inline-tasks">Potential:</span>
+        </p>
+        <ac:task-list>
+<ac:task>
+<ac:task-id>50</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Find a better way of being able to crowd source the automation and share between teams</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <ul>
+          <li>Standardising on Golden Images and the Golden Pipeline (where available) will enable easier adoption of many of the security tools or gates coming through, look into adopting these where possible.</li>
+          <li>If you create automation scripts or modules to help install items, don't keep this to yourself, share these with others! <br/>Often there is a specific help slack channel with security initiatives and these are a great place to post these tools but a catch all like #engineering-all, #engineering-help, or #engx is helpful too!</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">3</td>
+      <td colspan="1">Technical strategy note - List of tools / software / languages which can be used in Citrix</td>
+      <td colspan="1">
+        <ul>
+          <li>A list of best practices</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>51</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Under advisement from security, create a best practices list for new projects</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+        <p>
+          <span class="placeholder-inline-tasks">Potential:</span>
+        </p>
+        <ac:task-list>
+<ac:task>
+<ac:task-id>52</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">(hackathon) Design best practices decision tool and library</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <p>Weekly asia-ops created this <ac:link>
+            <ri:page ri:content-title="Container security unified umbrella group proposal" ri:space-key="DNE"/>
+          </ac:link>
+        </p>
+        <p>Add your name here if you are want to talk to us about best practices:</p>
+        <ul>
+          <li>@&lt;your name&gt;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">2</td>
+      <td colspan="1">
+        <p>Breathing space to upgrade snyk vulnerable libraries</p>
+        <p>For example: for appm they break the build, including release branches</p>
+      </td>
+      <td colspan="1">
+        <ul>
+          <li>A compromise between "best practice" and developer reality</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>53</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Work with Security and Pipeline to find out what is possible, what is acceptable and find the compromise</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+        <p>Potential:</p>
+        <ac:task-list>
+<ac:task>
+<ac:task-id>54</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Extend the EngX OSR Workflow automation to cover all projects, which only stops PRs and does not break builds</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2 class="auto-cursor-target">Feedback for: Pipeline Teams (fun fact: Pipeline leadership is in the EngX leadership!)</h2>
+<table class="relative-table wrapped" style="width: 95.1087%;">
+  <colgroup>
+    <col style="width: 8.80503%;"/>
+    <col style="width: 18.0675%;"/>
+    <col style="width: 24.5283%;"/>
+    <col style="width: 18.8679%;"/>
+    <col style="width: 18.1246%;"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>
+        <p>Priority</p>
+        <p>
+          <em>(number of upvotes)</em>
+        </p>
+      </th>
+      <th>Summary</th>
+      <th>Desired State (at end of 2022)</th>
+      <th colspan="1">Actions for EngX</th>
+      <th colspan="1">Actions for Engineers</th>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Engineers requested better training on GitHub usage before flood gates open</td>
+      <td>
+        <ul>
+          <li>Training for GitHub provided before "the big switch"</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>61</ac:task-id>
+<ac:task-status>complete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to pipeline teams</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>62</ac:task-id>
+<ac:task-status>complete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Request for inclusion in next pipeline webinar</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">Attend next pipeline webinar to find out more.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Fewer required pipeline changes for each team</td>
+      <td>
+        <ul>
+          <li>Pipeline changes made in batches</li>
+          <li>Changes highlighted as "with automation" vs how long would be spent without automation</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>63</ac:task-id>
+<ac:task-status>complete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to pipeline teams</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <p>No actions but a message from pipeline leadership:</p>
+        <p>
+          <em>These sentiments are taken into consideration for Soteria 2022 requirements and expect to be factored into the magnitude and frequency of work required by team</em>s</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">3</td>
+      <td colspan="1">IaC analysis support in the pipeline</td>
+      <td colspan="1">
+        <ul>
+          <li>IaC analysis supported in Gold Pipeline</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>64</ac:task-id>
+<ac:task-status>complete</ac:task-status>
+<ac:task-body>Relay to Pipeline team to follow up on latest tool availability, possible spike, and communication on latest</ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">2</td>
+      <td colspan="1">A/B Feature Testing</td>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>65</ac:task-id>
+<ac:task-status>complete</ac:task-status>
+<ac:task-body>Relay to Pipeline team to follow up on latest tool availability, possible spike, and communication on latest</ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <p>Add your name here if you are want to talk to us more about A/B testing:</p>
+        <ul>
+          <li>@&lt;your name&gt;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">1</td>
+      <td colspan="1">CD-specific pipeline templates</td>
+      <td colspan="1">
+        <ul>
+          <li>CD-specific pipeline templates available</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>66</ac:task-id>
+<ac:task-status>complete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Relay to pipeline teams</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">Keep your eyes open for this becoming available since it is a high priority item in backlog for Pipeline ART; <strong>ETA v1 in PI15</strong>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2 class="auto-cursor-target">Feedback for: EPO / EOO</h2>
+<table class="relative-table wrapped" style="width: 95.1087%;">
+  <colgroup>
+    <col style="width: 8.80503%;"/>
+    <col style="width: 18.0675%;"/>
+    <col style="width: 24.5283%;"/>
+    <col style="width: 18.8679%;"/>
+    <col style="width: 18.1246%;"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>
+        <p>Priority</p>
+        <p>
+          <em>(number of upvotes)</em>
+        </p>
+      </th>
+      <th>Summary</th>
+      <th>Desired State (at end of 2022)</th>
+      <th colspan="1">Actions for EngX</th>
+      <th colspan="1">Actions for Engineers</th>
+    </tr>
+    <tr>
+      <td colspan="1">~20</td>
+      <td colspan="1">We had many comments on being able to share best practices for cloud/test automation and global shared internal documentation</td>
+      <td colspan="1">
+        <ul>
+          <li>
+            <span class="placeholder-inline-tasks">A better way to find and share information, whether that be migrating to a new platform or improving confluence.</span>
+          </li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <div class="content-wrapper">
+          <ac:task-list>
+<ac:task>
+<ac:task-id>77</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                <span class="placeholder-inline-tasks">Request EOO to loop back on internal stack overflow</span>
+              </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>78</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                <span class="placeholder-inline-tasks">Request EOO to continue discussions on confluence vs moving to something new.</span>
+              </ac:task-body>
+</ac:task>
+</ac:task-list>
+          <p>
+            <span class="placeholder-inline-tasks">potential:</span>
+          </p>
+          <ac:task-list>
+<ac:task>
+<ac:task-id>79</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                <span class="placeholder-inline-tasks">Hackathon Action: improve confluence search</span>
+              </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>80</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                <span class="placeholder-inline-tasks">Hackathon Action: Improve publishing to confluence from code (see <ac:structured-macro ac:macro-id="490a4f71-63e7-4b7f-8d3a-3137adda739f" ac:name="jira" ac:schema-version="1">
+                    <ac:parameter ac:name="server">issues.citrite.net</ac:parameter>
+                    <ac:parameter ac:name="serverId">65f8ef43-6ff2-3325-bec4-0a0c61d2a717</ac:parameter>
+                    <ac:parameter ac:name="key">ENGXDEV-497</ac:parameter>
+                  </ac:structured-macro>for contact/more details)</span>
+              </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>81</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                <span class="placeholder-inline-tasks">Hackathon Action: Slack integrations for confluence questions</span>
+              </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>82</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+                <span> </span>
+              </ac:task-body>
+</ac:task>
+</ac:task-list>
+        </div>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">3</td>
+      <td colspan="1">Share best practices, internal libraries, innersource knowledge in a monthly email/newsletter</td>
+      <td colspan="1">
+        <ul>
+          <li>
+            <span class="placeholder-inline-tasks">Engineers are more aware of innersourced libraries that can help with their day to day work.</span>
+          </li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <p>Potential:</p>
+        <ac:task-list>
+<ac:task>
+<ac:task-id>83</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Innersource monthly/quarterly communication</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <ul>
+          <li>If you create automation scripts or modules to help automate some of your workflow, don't keep this to yourself, share these with others! If they are specific to an innersource library share on their channel or #eng-innersource and help build the innersourcing community at citrix.</li>
+        </ul>
+        <p>If you would like to help with an innersource newsletter or have a cool project you want highlighting let us know here:</p>
+        <ul>
+          <li>@&lt;your name&gt;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>
+        <p>HashiCorp Vault has wider tool integration than SecretServer. Folks in EPO/EOO would like to standardize on this popular tool.</p>
+        <p>EngX believe this is an issue mainly seen inside EOO/EPO.</p>
+      </td>
+      <td>
+        <ul>
+          <li>Hashicorp vault enterprise available from engineering network for teams that require it</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>84</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Forward request to EPO/EOO leadership</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">Tell us if you fall outside EOO/EPO org and you want/need hashicorp access for your cloud workflows on #engx</td>
+    </tr>
+    <tr>
+      <td colspan="1">3</td>
+      <td colspan="1">"Splunk performance and logging quota needs to be improved"</td>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>85</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to EOO/EPO/Jira leadership</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>"Allowing groups to define their own Jira template for customer support issues"</td>
+      <td>
+        <br/>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">Raise a Jira helpdesk issue here: <a href="https://issues.citrite.net/servicedesk/customer/portal/35">https://issues.citrite.net/servicedesk/customer/portal/35</a>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">1</td>
+      <td colspan="1">"Allow key Jira admin members  Admin access without requiring adm1 accounts. This adm1 process takes 5 min to get into Jira"</td>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>86</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to EOO/Jira leadership</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2 class="auto-cursor-target">Feedback for: Engineering Management</h2>
+<table class="relative-table wrapped" style="width: 95.1087%;">
+  <colgroup>
+    <col style="width: 8.80503%;"/>
+    <col style="width: 18.0675%;"/>
+    <col style="width: 24.5283%;"/>
+    <col style="width: 18.8679%;"/>
+    <col style="width: 18.1246%;"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>
+        <p>Priority</p>
+        <p>
+          <em>(number of upvotes)</em>
+        </p>
+      </th>
+      <th>Summary</th>
+      <th>Desired State (at end of 2022)</th>
+      <th colspan="1">Actions for EngX</th>
+      <th colspan="1">Actions for Engineers</th>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>More social events in engineering, being able to interact with each other beyond planning/retros.</td>
+      <td>
+        <ul>
+          <li>Time set aside on a regular basis to socialise across teams and across geos</li>
+          <li>Each team is empowered to take time out of busy schedules to get to know and keep up with each other</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>98</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback feelings of wanting more of a connection</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>99</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Raise to EOO (Bianca S / Mattie C)</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <p>Engage in these efforts when they come about! Using the social and collaboration efforts and reporting if/why you find them beneficial will make them here to stay.</p>
+        <p>A community is built by all of us and reach out on #engx if you have any ideas on how to engineer more fun</p>
+      </td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Worklife integration, balanced life at work &amp; home, more casual interaction with team like used to happen in office</td>
+      <td>
+        <ul>
+          <li>Choice of working from home or from the office</li>
+          <li>Cross-team checking in </li>
+          <li>A way for new starters to meet people they don't work with "organically" without <strong>having </strong>to be in the office.</li>
+        </ul>
+      </td>
+      <td colspan="1">same as above</td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">6</td>
+      <td colspan="1">
+        <p>"work" adjacent chats are desired and beneficial.</p>
+        <p>Suggestions at pulse included "spot the defect" email/slack chain; capture the flag events.</p>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>100</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">look into gamifying pulse</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>101</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">champion fun &amp; collaborative events</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">6</td>
+      <td colspan="1">"Clear goals defined early enough to thoroughly size and plan before going into PI planning" / "We know what's ahead for the next 6 months so we can plan and innovate with very few surprises ahead"</td>
+      <td colspan="1">
+        <ul>
+          <li>Transparent communication (where possible) with reason and impact clear</li>
+          <li>Goals clear and how they fit into company vision</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>102</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to managers</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>103</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Find out more about the problem space and figure out if we can do anything</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">4</td>
+      <td colspan="1">
+        <p>"time to think about improvements outside of sprint tasks"</p>
+        <p>A lot of engineers thrive on autonomy and care about delivering the best they can, it can feel that when sprints are packed to the brim; engineers have to context switch; or there is a lot of uncertainty, that engineers don't have the time to do their best work or have space for what they are passionate about.</p>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>115</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to Engineering Leadership</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>116</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>Feedback to LACE (aligns with flow conversation)</ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">3</td>
+      <td colspan="1">"More data driven decision making across the board"</td>
+      <td colspan="1">
+        <ul>
+          <li>Decisions are backed up by data</li>
+          <li>This data is communicated</li>
+          <li>"data" is easy to find and feedback mechanisms are built in</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>104</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to Engineering Leadership</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>105</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Find out more about the problem space and figure out if we can do anything / provide data or easy ways of discovering data</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>106</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Strive to be data driven ourselves while never forgetting the humans behind it all</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">2</td>
+      <td colspan="1">Engineering work flow can require long, deep and concentrated periods of work - small meetings or too many meetings can get in the way of this flow.</td>
+      <td colspan="1">
+        <ul>
+          <li>I have spent less time having meetings or braking for a small meeting and was able to get in the flow with my engineering work.</li>
+        </ul>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>107</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to leadership</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <p>Discuss this in your teams and with the people who put the meetings that disrupt this flow.</p>
+        <p>Ensure all meetings you send have a clear agenda (written or not) and everyone knows why they are there.</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">1</td>
+      <td colspan="1">"Better dependency Management and resource alignment across teams"</td>
+      <td colspan="1">
+        <br/>
+      </td>
+      <td colspan="1">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>108</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to Engineering Leadership</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2 class="auto-cursor-target">Feedback for: LACE</h2>
+<table class="relative-table wrapped" style="width: 95.1087%;">
+  <colgroup>
+    <col style="width: 8.80503%;"/>
+    <col style="width: 18.0675%;"/>
+    <col style="width: 24.5283%;"/>
+    <col style="width: 18.8679%;"/>
+    <col style="width: 18.1246%;"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>
+        <p>Priority</p>
+        <p>
+          <em>(number of upvotes)</em>
+        </p>
+      </th>
+      <th>Summary</th>
+      <th>Desired State (at end of 2022)</th>
+      <th colspan="1">Actions for EngX</th>
+      <th colspan="1">Actions for Engineers</th>
+    </tr>
+    <tr>
+      <td colspan="1">9</td>
+      <td colspan="1">"We plan and size things to what is realistic rather than what makes the number of story points work"</td>
+      <td rowspan="4">
+        <ul>
+          <li>Agile practices feel like a good use of time for all. Make teams for effective, efficient and happy rather than time drain</li>
+          <li>Team are empowered to give estimates they believe in and are achievable</li>
+        </ul>
+      </td>
+      <td rowspan="4">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>111</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to LACE</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td rowspan="4">Hopefully Heidi's talk on Monday 7th February about Agile@Citrix helped calm some of these discussion points and you know to to find out more:<ol>
+          <li>Agile@Citrix wiki link -<span> </span>
+            <a class="c-link" href="https://info.citrite.net/x/LCCKWg" style="text-decoration: none;">https://info.citrite.net/x/LCCKWg</a>
+          </li>
+          <li>
+            <a class="c-link c-mrkdwn__channel c-member_slug internal_channel_link c-member_slug--link" href="https://citrix.slack.com/archives/C02UPCLUPHP" style="text-decoration: none;">#agile-at-citrix-initiative</a>
+            <span> </span>Slack channel to learn more and ask questions</li>
+        </ol>
+        <br/>
+        <p>Add your name here if you are want to talk to us more about Agile Practices and any specific frictions:</p>
+        <ul>
+          <li>@&lt;your name&gt;</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>"Agile practices feel like a good use of time for all. Make teams for effective, efficient and happy rather than time drain"</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>"Scope to enhance Design driven development maintaining agility"</td>
+    </tr>
+    <tr>
+      <td colspan="1">3</td>
+      <td colspan="1">Can we have some TPM assigned to a group if requested to improve the process if they need help</td>
+    </tr>
+  </tbody>
+</table>
+<h2 class="auto-cursor-target">Feedback for: EWS (Engineering Workspace/EDaaS)</h2>
+<table class="relative-table wrapped" style="width: 95.1087%;">
+  <colgroup>
+    <col style="width: 8.80503%;"/>
+    <col style="width: 18.0675%;"/>
+    <col style="width: 24.5283%;"/>
+    <col style="width: 18.8679%;"/>
+    <col style="width: 18.1246%;"/>
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>
+        <p>Priority</p>
+        <p>
+          <em>(number of upvotes)</em>
+        </p>
+      </th>
+      <th>Summary</th>
+      <th>Desired State (at end of 2022)</th>
+      <th colspan="1">Actions for EngX</th>
+      <th colspan="1">Actions for Engineers</th>
+    </tr>
+    <tr>
+      <td colspan="1">~18</td>
+      <td colspan="1">"Better EDaaS Performance. CPU and disk too slow.<br/>Lots of session latency or disconnect problems"<br/>"Latency reduction should be worked upon on EDaaS desktops from any platform."</td>
+      <td colspan="1">
+        <ul>
+          <li>Latency reduction is reduced from any platform.</li>
+          <li>EDaaS is continued to be invested in and improved</li>
+          <li>Engineers who need faster CPU have access to it.</li>
+        </ul>
+      </td>
+      <td rowspan="5">
+        <ac:task-list>
+<ac:task>
+<ac:task-id>112</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">Feedback to EDaaS team</span>
+            </ac:task-body>
+</ac:task>
+<ac:task>
+<ac:task-id>118</ac:task-id>
+<ac:task-status>incomplete</ac:task-status>
+<ac:task-body>
+              <span class="placeholder-inline-tasks">EngX Investigation into Codespaces/Not Local Building</span>
+            </ac:task-body>
+</ac:task>
+</ac:task-list>
+      </td>
+      <td rowspan="5">Continue to feedback to the EDaaS team via their support and community slack channels and via "EWS Feedback" that pops up on your EDaaS machine at regular intervals.<br/>
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>
+        <ul>
+          <li>Linux EDaaS available (and reliable)</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li>Linux EDaaS available (and reliable)</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">~8</td>
+      <td colspan="1">"Be able to paste the EDaaS clipboard to the IT-managed laptop"</td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>"EDaaS that could communicate with the services needed to use it for day-to-day dev" <br/>"EDaaS that can access AWS VPN for sharefile test dbs"</td>
+      <td>
+        <ul>
+          <li>Engineers are able to connect to all they need to from their EDaaS machines / alternative provided and supported</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1">1</td>
+      <td colspan="1">"EDaaS,CWA needs to support high DPI monitors"</td>
+      <td colspan="1">
+        <br/>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="auto-cursor-target">
+  <br/>
+</p>

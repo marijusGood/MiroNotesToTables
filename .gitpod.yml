@@ -1,0 +1,3 @@
+tasks:
+  - init: install python dependancies
+    command: ls
