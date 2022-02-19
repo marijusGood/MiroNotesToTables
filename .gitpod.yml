@@ -1,3 +1,5 @@
 tasks:
   - init: install python requirements
-    command: pip install -r requirements.txt
+    command: |
+              cd MTTAPI
+              pip install -r requirements.txt
