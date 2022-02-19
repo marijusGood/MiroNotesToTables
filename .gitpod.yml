@@ -1,5 +1,5 @@
 tasks:
-  - init: install python requirements
+  - init: pip install -r requirements.txt
     command: |
               cd MTTAPI
-              pip install -r requirements.txt
+              uvicorn main:app --reload
