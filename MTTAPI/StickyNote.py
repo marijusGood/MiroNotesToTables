@@ -4,7 +4,7 @@ class StickyNote:
     def __init__(self, id, color, text, x, y):
         self.id = id
         self.color = color
-        self.text = text
+        self.text = text.replace("<p>", "").replace("</p>", "")
         self.x = x
         self.y = y
     

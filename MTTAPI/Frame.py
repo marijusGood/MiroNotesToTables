@@ -9,13 +9,20 @@ class Frame:
         else:
             self.backroundColorChildren[backroundColor] = [newChild]
 
+    def getAllNotes(self):
+        notesList = []
+        for notes in self.backroundColorChildren.values():
+            for note in notes:
+                notesList.append(note)
+        return notesList
+
     def findInList(lists, toFind):
         for item in lists:
             if type(item) == list:
                 output = Frame.findInList(item, toFind)
                 if len(output) > 0:
                     return output
-            elif item.text == toFind.text:
+            elif item == toFind.text:
                 return lists
         return []
 
@@ -33,7 +40,7 @@ class Frame:
                     if note.distanceBetweenNotes(note2) < distanceValue:
                         output = Frame.findInList(tempList, note2)
                         if len(output) == 0:
-                            tempList.append(note2)
+                            tempList.append(note2.text)
                 if isNewList:
                     noteGroups.append(tempList)
             backroundColorGrouped[key] = noteGroups
