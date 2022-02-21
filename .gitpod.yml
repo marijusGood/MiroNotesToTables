@@ -3,3 +3,11 @@ tasks:
     command: |
               cd MTTAPI
               uvicorn main:app --reload
+  - init: |
+          npm install -g npm
+          cd MTTFront-End
+          nmp install
+          npm install -g @angular/cli
+    command: |
+              cd MTTFront-End
+              ng serve
