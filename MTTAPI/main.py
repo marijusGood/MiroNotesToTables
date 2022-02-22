@@ -61,8 +61,6 @@ def getDistanceBetweenTwoNotes(noteText1, noteText2, framename, frames):
                     note1 = note
                 if noteText2 == note.text:
                     note2 = note
-            print(note1)
-            print(note2)
             if note1 == None or note2 == None:
                 return "notes not found"
             return note1.distanceBetweenNotes(note2)
