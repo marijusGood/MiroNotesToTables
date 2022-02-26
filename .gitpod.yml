@@ -1,3 +1,4 @@
+
 tasks:
   - init: pip install -r requirements.txt
     command: |
@@ -8,3 +9,11 @@ tasks:
               cd MTTFront-End
               npm install -g @angular/cli
               ng serve
+vscode:
+  extensions:
+    - Mikael.Angular-BeastCode
+    - steoates.autoimport
+    - GitHub.vscode-pull-request-github
+    - lonefy.vscode-JS-CSS-HTML-formatter
+    - ritwickdey.LiveServer
+    - ms-python.python
