@@ -1,1 +1,33 @@
-<h2> TEST </h2>
+<main class="page contact-page">
+    <div style="text-align: center;">
+        <div style="border-width: 0px;padding: 30px;margin: 0px;">
+            <small class="form-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 25px;">Token from Miro&nbsp;</small>
+            <input id="TokenFromMiro" type="text" style="margin-left: 20px;">
+            <div style="border-width: 0px;padding: 30px;margin: 0px;">
+                <small class="form-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 25px;">Board:&nbsp;</small>
+                <input id="BoardName" type="text" style="margin: 0px;padding: 0px 2px;margin-left: 20px;">
+            </div>
+        </div>
+        <div style="margin-top: 20px;margin-bottom: 20px;">
+            <p class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-start" style="color: rgb(0,0,0);font-size: 25px;">Get distance between two notes</p><small class="form-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 20px;margin-right: 26px;">Text from note A:</small>
+            <input id="NoteA" type="text" style="margin-right: 109px;"><small class="form-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 20px;margin-right: 23px;">Text from note B:</small>
+            <input id="NoteB" type="text">
+            <div>
+                <button id="GerDistanceBtn" class="btn btn-primary" type="button" style="margin: 20px;">Get Distance</button>
+                <p id="DistanceResult" style="color: rgb(0,0,0);font-size: 23px;">result</p>
+            </div>
+        </div>
+        <preGenetatingTabelInput>
+
+        </preGenetatingTabelInput>
+    </div>
+    <div id="tableDIV">
+
+        <generatedTable></generatedTable>
+
+    </div>
+    <div class="center">
+        <button id="ConvertToHTML" class="btn btn-primary" type="button" style="margin-bottom: 20px;">Convert table to HTML</button>
+    </div>
+
+</main>
