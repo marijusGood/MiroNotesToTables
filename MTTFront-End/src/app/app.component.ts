@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  miroFormInfo(formValue: any) {
+    console.log(formValue)
+  }
+
+  distanceBetweenNotesInfo(formValue: any) {
+    console.log(formValue)
+  }
+
+  preGenetatingTabelInfo(formValue: any) {
+    console.log(formValue)
+  }
 }

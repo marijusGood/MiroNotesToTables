@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ColorNotesComponent } from './color-notes/color-notes.component';
 import { TablesComponent } from './tables/tables.component';
+import { MiroConfigComponent } from './miro-config/miro-config.component';
+import { DistanceBetweenNotesComponent } from './distance-between-notes/distance-between-notes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ColorNotesComponent,
-    TablesComponent
+    TablesComponent,
+    MiroConfigComponent,
+    DistanceBetweenNotesComponent
   ],
   imports: [
     BrowserModule,

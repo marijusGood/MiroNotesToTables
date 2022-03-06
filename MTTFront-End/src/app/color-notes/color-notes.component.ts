@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 //TODO: change name to preGenetatingTabelInput
 
@@ -7,8 +7,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './color-notes.component.html',
   styleUrls: ['./color-notes.component.css']
 })
-export class ColorNotesComponent implements OnInit {
 
+export class ColorNotesComponent {
+  @Output() formValue = new EventEmitter();
   listInput: string[] = ["a","a","a","a","a","a","a","a"];
 
   listOfColors = [
@@ -21,15 +22,11 @@ export class ColorNotesComponent implements OnInit {
 
   listOfFrames = ["Frame 1", "Frame 2"];
 
+  
 
-  constructor() { }
-
-  ngOnInit(): void {
+  submit(form: any) {
+    this.formValue.emit(form.value);
   }
 
-  logList() {
-    console.log(this.listInput[0]);
-    
-  }
 
 }

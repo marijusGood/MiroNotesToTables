@@ -1,0 +1,11 @@
+<form #form="ngForm" (ngSubmit)="submit(form)">
+    <div style="margin-top: 20px;margin-bottom: 20px;">
+        <p class="text-center d-xxl-flex justify-content-xxl-center align-items-xxl-start" style="color: rgb(0,0,0);font-size: 25px;">Get distance between two notes</p><small class="form-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 20px;margin-right: 26px;">Text from note A:</small>
+        <input required ngModel name="noteA" id="NoteA" type="text" style="margin-right: 109px;"><small class="form-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 20px;margin-right: 23px;">Text from note B:</small>
+        <input required ngModel name="noteB" id="NoteB" type="text">
+        <div>
+            <button class="btn btn-primary" style="margin: 20px" [disabled]="!form.valid">Calculate distance</button>
+            <p id="DistanceResult" style="color: rgb(0,0,0);font-size: 23px;">result</p>
+        </div>
+    </div>
+</form>

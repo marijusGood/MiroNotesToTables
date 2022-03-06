@@ -1,29 +1,30 @@
-<!-- inside id="tableDIV-->
-<p id="FeedbackIT" class="text-start" style="color: rgb(0,0,0);">Feedback for: IT</p>
-<div id="ITTableDiv" class="table-responsive" style="margin-bottom: 20px;">
-    <table id="ITTable" class="table table-sm table-bordered">
-        <thead>
-            <tr style="background: #a4a4a4;">
-                <th>
-                    <p>Priority</p>
-                    <p>
-                        <em>(number of upvotes)</em>
-                    </p>
-                </th>
-                <th>Summary</th>
-                <th>Desired State (at end of 2022)</th>
-                <th colspan="1">Actions for EngX</th>
-                <th colspan="1">Actions for Engineers</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Cell 1</td>
-                <td>Cell 2</td>
-                <td>Text</td>
-                <td>Text</td>
-                <td>Text</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+<p class="text-start" style="color: rgb(0,0,0);">Feedback for: {{ tableName }}</p>
+<form>
+    <div class="table-responsive" style="margin-bottom: 20px;">
+        <table class="table table-sm table-bordered">
+            <thead>
+                <tr style="background: #a4a4a4;">
+                    <th>
+                        <p>Priority</p>
+                        <p>
+                            <em>(number of upvotes)</em>
+                        </p>
+                    </th>
+                    <th>Summary</th>
+                    <th>Desired State (at end of 2022)</th>
+                    <th colspan="1">Actions for EngX</th>
+                    <th colspan="1">Actions for Engineers</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let notes of tableContent; index as i">
+                    <td><input (blur)="sortArray()" ngModel name="{{ 'Priority' + i }}" type="number" [(ngModel)]="tableContent[i].Priority"></td>
+                    <td><input ngModel name="{{ 'Summary' + i }}" type="text" [(ngModel)]="tableContent[i].Summary"></td>
+                    <td><input ngModel name="{{ 'DesiredState' + i }}" type="text" [(ngModel)]="tableContent[i].DesiredState"></td>
+                    <td><input ngModel name="{{ 'ActionsForEngX' + i }}" type="text" [(ngModel)]="tableContent[i].ActionsEngX"></td>
+                    <td><input ngModel name="{{ 'ActionsForEngineers' + i }}" type="text" [(ngModel)]="tableContent[i].ActionsEngineers"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</form>
