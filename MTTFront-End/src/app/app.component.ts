@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  listOfTables = ["IT", "EDaaS"];
+  
+  constructor() {
+    
+  }
 
   miroFormInfo(formValue: any) {
     console.log(formValue)
