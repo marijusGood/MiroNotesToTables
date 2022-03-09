@@ -7,6 +7,37 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   listOfTables = ["IT", "EDaaS"];
+
+  tableContent: any = [
+    [{
+      Priority: 0,
+      Summary: "d",
+      DesiredState: "w",
+      ActionsEngX: "k",
+      ActionsEngineers: "f"
+    },
+    {
+      Priority: 1,
+      Summary: "dd",
+      DesiredState: "ww",
+      ActionsEngX: "kk",
+      ActionsEngineers: "ff"
+    }],
+    [{
+      Priority: 0,
+      Summary: "d",
+      DesiredState: "w",
+      ActionsEngX: "k",
+      ActionsEngineers: "f"
+    },
+    {
+      Priority: 1,
+      Summary: "dd",
+      DesiredState: "ww",
+      ActionsEngX: "kk",
+      ActionsEngineers: "ff"
+    }]
+  ];
   
   constructor() {
     

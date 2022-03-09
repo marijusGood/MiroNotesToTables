@@ -8,6 +8,7 @@ import { ColorNotesComponent } from './color-notes/color-notes.component';
 import { TablesComponent } from './tables/tables.component';
 import { MiroConfigComponent } from './miro-config/miro-config.component';
 import { DistanceBetweenNotesComponent } from './distance-between-notes/distance-between-notes.component';
+import { ToHTMLComponent } from './to-html/to-html.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DistanceBetweenNotesComponent } from './distance-between-notes/distance
     ColorNotesComponent,
     TablesComponent,
     MiroConfigComponent,
-    DistanceBetweenNotesComponent
+    DistanceBetweenNotesComponent,
+    ToHTMLComponent
   ],
   imports: [
     BrowserModule,

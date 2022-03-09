@@ -19,10 +19,10 @@
             <tbody>
                 <tr *ngFor="let notes of tableContent; index as i">
                     <td><input (blur)="sortArray()" ngModel name="{{ 'Priority' + i }}" type="number" [(ngModel)]="tableContent[i].Priority"></td>
-                    <td><input ngModel name="{{ 'Summary' + i }}" type="text" [(ngModel)]="tableContent[i].Summary"></td>
-                    <td><input ngModel name="{{ 'DesiredState' + i }}" type="text" [(ngModel)]="tableContent[i].DesiredState"></td>
-                    <td><input ngModel name="{{ 'ActionsForEngX' + i }}" type="text" [(ngModel)]="tableContent[i].ActionsEngX"></td>
-                    <td><input ngModel name="{{ 'ActionsForEngineers' + i }}" type="text" [(ngModel)]="tableContent[i].ActionsEngineers"></td>
+                    <td><textarea ngModel name="{{ 'Summary' + i }}" type="text" [(ngModel)]="tableContent[i].Summary"></textarea></td>
+                    <td><textarea ngModel name="{{ 'DesiredState' + i }}" type="text" [(ngModel)]="tableContent[i].DesiredState"></textarea></td>
+                    <td><textarea ngModel name="{{ 'ActionsForEngX' + i }}" type="text" [(ngModel)]="tableContent[i].ActionsEngX"></textarea></td>
+                    <td><textarea ngModel name="{{ 'ActionsForEngineers' + i }}" type="text" [(ngModel)]="tableContent[i].ActionsEngineers"></textarea></td>
                 </tr>
             </tbody>
         </table>

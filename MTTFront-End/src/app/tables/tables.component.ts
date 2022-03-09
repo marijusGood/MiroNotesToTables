@@ -11,7 +11,7 @@ export class TablesComponent {
   @Input() tableContent: RowDataList = [
     {
       Priority: 0,
-      Summary: "d",
+      Summary: "d\ndasd",
       DesiredState: "w",
       ActionsEngX: "k",
       ActionsEngineers: "f"
