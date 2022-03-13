@@ -1,3 +1,4 @@
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
@@ -39,8 +40,14 @@ export class AppComponent {
     }]
   ];
   
-  constructor() {
-    
+  constructor(private http:HttpClient) {
+    const params = new HttpParams()
+    .set('token', 'f6iLyJ-Y4Qeef9YEq6tmEMoouR4')
+    .set('board', 'uXjVON1TP3E=');
+
+    http.get('http://127.0.0.1:8000/frames/', {params}).subscribe(response =>{
+      console.log(response);
+    });
   }
 
   miroFormInfo(formValue: any) {
