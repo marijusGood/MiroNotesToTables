@@ -1,5 +1,9 @@
-import { HttpClient, HttpParams } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Component } from '@angular/core';
+import { Frame } from './frameInterface';
+import { RowData, TableOfRows } from './rowDataInterface';
+import { selectedNotes } from './selectedNotesInterface';
+import { tableContent } from './tableContentInterface';
 
 @Component({
   selector: 'app-root',
@@ -7,58 +11,78 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  listOfTables = ["IT", "EDaaS"];
+  board: string = "";
+  token: string = "";
+  frames: Array<Frame> = [];
+  frameList: Array<string> = [];
+  tables: Array<TableOfRows> = [];
+  hideHTMLText: boolean = true;
 
-  tableContent: any = [
-    [{
-      Priority: 0,
-      Summary: "d",
-      DesiredState: "w",
-      ActionsEngX: "k",
-      ActionsEngineers: "f"
-    },
-    {
-      Priority: 1,
-      Summary: "dd",
-      DesiredState: "ww",
-      ActionsEngX: "kk",
-      ActionsEngineers: "ff"
-    }],
-    [{
-      Priority: 0,
-      Summary: "d",
-      DesiredState: "w",
-      ActionsEngX: "k",
-      ActionsEngineers: "f"
-    },
-    {
-      Priority: 1,
-      Summary: "dd",
-      DesiredState: "ww",
-      ActionsEngX: "kk",
-      ActionsEngineers: "ff"
-    }]
-  ];
   
   constructor(private http:HttpClient) {
-    const params = new HttpParams()
-    .set('token', 'f6iLyJ-Y4Qeef9YEq6tmEMoouR4')
-    .set('board', 'uXjVON1TP3E=');
 
-    http.get('http://127.0.0.1:8000/frames/', {params}).subscribe(response =>{
-      console.log(response);
-    });
   }
 
   miroFormInfo(formValue: any) {
-    console.log(formValue)
+    this.token = formValue.token;
+    this.board = formValue.board;
+
+    const params = new HttpParams()
+    .set('token', this.token)
+    .set('board', this.board);
+
+    this.http.get<Array<Frame>>('http://127.0.0.1:8000/frames/', {params}).subscribe(response =>{
+
+      this.frames = response;
+      this.frames.forEach(frame => {
+        this.frameList.push(frame.FrameName);
+      });
+
+    });
+    
   }
 
-  distanceBetweenNotesInfo(formValue: any) {
-    console.log(formValue)
+  selcetedNotes(formValue: selectedNotes) {
+    const headers = new HttpHeaders().append('Content-Type', 'application/json');
+    const params = new HttpParams()
+    .set('token', this.token)
+    .set('board', this.board);
+
+    this.http.post<Array<tableContent>>('http://127.0.0.1:8000/table/',
+                                        JSON.stringify(formValue),
+                                        {headers: headers, params: params})
+     .subscribe(response =>{
+      this.tables = [];
+
+      for (let i = 0; i < response.length; i++) {
+        if (response[i].tableName == "") continue
+        let tableOfRows: TableOfRows = {
+          TableName: response[i].tableName,
+          Rows: []
+        };
+        for (let j = 0; j < response[i].groupedNoteText.length; j++) {
+
+          let rowData: RowData = {
+            Priority: 0,
+            Summary: ""
+          };
+
+          for (let k = 0; k < response[i].groupedNoteText[j].length; k++) {
+
+            rowData.Summary += response[i].groupedNoteText[j][k];
+            if (k < response[i].groupedNoteText[j].length - 1) rowData.Summary += '\n'
+          }
+          tableOfRows.Rows.push(rowData);
+        }
+        this.tables.push(tableOfRows);
+      }
+
+    });
   }
 
-  preGenetatingTabelInfo(formValue: any) {
-    console.log(formValue)
+  updateTableContent(formValue: TableOfRows, table: TableOfRows) {
+    console.log(formValue);
+    table = formValue;
+    console.log(this.tables);
   }
 }

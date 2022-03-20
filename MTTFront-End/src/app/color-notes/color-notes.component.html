@@ -5,17 +5,26 @@
         <p style="color: rgb(0,0,0);font-size: 27px;">Information for creating tables</p>
         <div style="margin-bottom: 37px;">
             <small class="form-text" style="border-bottom-color: rgb(0,0,0);font-weight: bold;font-size: 19px;color: rgb(0,0,0);margin-right: 23px;">Frame:&nbsp;</small>
-            <select required ngModel name="selectedFrame" id="FrameList">
-                <option *ngFor="let frame of listOfFrames" [value]="frame">{{frame}}</option>
+            <select required ngModel name="selectedFrame" id="FrameList" (change)="cleanDict()" [(ngModel)]="selectedNotes.frameName">
+                <option *ngFor="let frame of frames" [value]="frame.FrameName">{{frame.FrameName}}</option>
             </select>
+        </div>
+        <div style="margin-bottom: 37px;">
+            <small class="form-text" style="border-bottom-color: rgb(0,0,0);font-weight: bold;font-size: 19px;color: rgb(0,0,0);margin-right: 23px;">Distance between notes:&nbsp;</small>
+            <input ngModel name="distance-between-notes" #token="ngModel" type="number" style="margin-left: 5px;" [(ngModel)]="selectedNotes.distance">
         </div>
         <p style="color: rgb(0,0,0);font-size: 27px;">Name colour of notes</p>
         <div id="NoteDIV" style="margin: 20px; display: flex; justify-content: center;">
 
-            <div *ngFor="let color of listOfColors; index as i" style="margin: 15px;">
-                <div class="colorBox" [style.backgroundColor]="color">
-                    <input ngModel name="{{ 'box' + i }}" class="NoteDescription" type="text">
+            <div style="display: flex;" *ngFor="let colors of frames" style="margin: 15px;">
+                <div style="display: flex;" *ngIf="colors.FrameName == selectedNotes.frameName">
+                    <div style="display: flex; margin: 20px;" *ngFor="let color of colors.Colors; index as i">
+                        <div class="colorBox" [style.backgroundColor]="color" *ngIf="addToTheDict(color)">
+                            <input ngModel name="{{ color }}" class="NoteDescription" type="text" [(ngModel)]="selectedNotes.colorsName[color]">
+                        </div>
+                    </div>
                 </div>
+                
             </div>
 
         </div>

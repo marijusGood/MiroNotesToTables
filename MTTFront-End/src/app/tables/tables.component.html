@@ -1,7 +1,14 @@
-<p class="text-start" style="color: rgb(0,0,0);">Feedback for: {{ tableName }}</p>
+<p class="text-start" style="color: rgb(0,0,0);">Feedback for: {{ table.TableName }}</p>
 <form>
     <div class="table-responsive" style="margin-bottom: 20px;">
         <table class="table table-sm table-bordered">
+            <colgroup>
+                <col style="width: 5%;" />
+                <col style="width: 60%;" />
+                <col style="width: 10%;" />
+                <col style="width: 10%;" />
+                <col style="width: 10%;" />
+            </colgroup>
             <thead>
                 <tr style="background: #a4a4a4;">
                     <th>
@@ -17,12 +24,12 @@
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let notes of tableContent; index as i">
-                    <td><input (blur)="sortArray()" ngModel name="{{ 'Priority' + i }}" type="number" [(ngModel)]="tableContent[i].Priority"></td>
-                    <td><textarea ngModel name="{{ 'Summary' + i }}" type="text" [(ngModel)]="tableContent[i].Summary"></textarea></td>
-                    <td><textarea ngModel name="{{ 'DesiredState' + i }}" type="text" [(ngModel)]="tableContent[i].DesiredState"></textarea></td>
-                    <td><textarea ngModel name="{{ 'ActionsForEngX' + i }}" type="text" [(ngModel)]="tableContent[i].ActionsEngX"></textarea></td>
-                    <td><textarea ngModel name="{{ 'ActionsForEngineers' + i }}" type="text" [(ngModel)]="tableContent[i].ActionsEngineers"></textarea></td>
+                <tr *ngFor="let notes of table.Rows; index as i">
+                    <td><input (blur)="sortArray()" ngModel name="{{ 'Priority' + i }}" type="number" [(ngModel)]="table.Rows[i].Priority"></td>
+                    <td><textarea style="width:100%;" (input)="sendUpdate()" ngModel name="{{ 'Summary' + i }}" type="text" [(ngModel)]="table.Rows[i].Summary"></textarea></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </tbody>
         </table>

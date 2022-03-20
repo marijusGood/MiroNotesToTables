@@ -1,17 +1,11 @@
 <main class="page contact-page">
     <div style="text-align: center;">
         <miro-config (formValue)="miroFormInfo($event)"></miro-config>
-        <distance-between-notes (formValue)="distanceBetweenNotesInfo($event)"></distance-between-notes>
-        <preGenetatingTabelInput (formValue)="preGenetatingTabelInfo($event)"></preGenetatingTabelInput>
+        <distance-between-notes [token]="token" [board]="board" [frames]="frameList" [hidden]="frames.length == 0"></distance-between-notes>
+        <preGenetatingTabelInput (formValue)="selcetedNotes($event)" [frames]="frames" [hidden]="frames.length == 0"></preGenetatingTabelInput>
     </div>
-    <div id="tableDIV">
-
-        <generatedTable [tableName]="listOfTables[0]"></generatedTable>
-        <generatedTable [tableName]="listOfTables[1]"></generatedTable>
-
+    <div id="tableDIV" *ngFor="let table of tables">
+        <generatedTable [table]="table" (formValue)="updateTableContent($event, table)"></generatedTable>
     </div>
-    <div class="center">
-        <button id="ConvertToHTML" class="btn btn-primary" type="button" style="margin-bottom: 20px;">Convert table to HTML</button>
-    </div>
-
+    <to-html [tables]="tables" [hidden]="tables.length == 0"></to-html>
 </main>

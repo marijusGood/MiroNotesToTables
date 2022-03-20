@@ -1,10 +1,10 @@
 <form #form="ngForm" (ngSubmit)="submit(form)">
     <div style="border-width: 0px;padding: 30px;margin: 0px;">
         <small class="form-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 25px;">Token from Miro&nbsp;</small>
-        <input required ngModel name="token" #token="ngModel" id="TokenFromMiro" type="text" style="margin-left: 20px;">
+        <input required ngModel name="token" #token="ngModel" id="TokenFromMiro" type="text" style="margin-left: 20px;" [ngModel]="tokenID">
         <div style="border-width: 0px;padding: 30px;margin: 0px;">
             <small class="form-text" style="color: rgb(0,0,0);font-weight: bold;font-size: 25px;">Board:&nbsp;</small>
-            <input required ngModel name="board" id="BoardName" type="text" style="margin: 0px;padding: 0px 2px;margin-left: 20px;">
+            <input required ngModel name="board" id="BoardName" type="text" style="margin: 0px;padding: 0px 2px;margin-left: 20px;" [ngModel]="boardID">
         </div>
     </div>
     <button class="btn btn-primary" style="margin: 20px" [disabled]="!form.valid">Submit</button>

@@ -1,6 +1,7 @@
 from typing import Optional, Dict
 from fastapi import FastAPI, status, Response
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
 
 import requests
 import json
@@ -68,14 +69,14 @@ def getDistanceBetweenTwoNotes(noteText1, noteText2, framename, frames):
         
         
 def framesListToJSON(frames):
-    framesJSON = {}
+    framesJSON = []
     for frame in frames.values():
         frameDict = {}
         frameDict["FrameName"] = frame.title
         frameDict["Colors"] = []
         for colour in frame.backroundColorChildren.keys():
             frameDict["Colors"].append(colour)
-        framesJSON[frame.title] = frameDict
+        framesJSON.append(frameDict)
     return framesJSON
 
 def getJSONData(token, board, response):
@@ -87,24 +88,30 @@ def getJSONData(token, board, response):
     return json.loads(jsonRaw)
 
 def grouptedNotesToJSON(namedNotes, groupedNotes):
-    tableJSON = {}
+    tableJSON = []
     for key in groupedNotes.keys():
         if key in namedNotes.colorsName:
-            tableJSON[namedNotes.colorsName[key]] = groupedNotes[key]
-    return cleanUpLableNotes(namedNotes, tableJSON)
-    
-def cleanUpLableNotes(namedNotes, tableJSON):
-    for lists in tableJSON.values():
-        for noteName in namedNotes.colorsName.values():
-            if [noteName] in lists:
-                lists.remove([noteName])
-                break
-
+            tempDict = {}
+            tempDict['tableName'] = namedNotes.colorsName[key]
+            tempDict['groupedNoteText'] = groupedNotes[key]
+            #print(groupedNotes[key])
+            tableJSON.append(tempDict)
     return tableJSON
-
-
+    
 
 app = FastAPI()
+
+origins = [
+    "http://127.0.0.1:4200"
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/frames/")
 async def test(token: str, board: str, response: Response):
@@ -114,7 +121,7 @@ async def test(token: str, board: str, response: Response):
 
     return framesListToJSON(frames)
 
-@app.get("/distance-between-notes/{frameName}")
+@app.get("/distance-between-notes/{frameName}/")
 async def test(frameName:str, note1: str, note2: str, token: str, board: str, response: Response):
     jsonWidgets = getJSONData(token, board, response)
     sticker = extractStickers(jsonWidgets)
@@ -127,6 +134,6 @@ async def compileTable(token: str, board: str, namedNotes: NamedNotesFromFrame, 
     sticker = extractStickers(jsonWidgets)
     frames = extractFrames(jsonWidgets, sticker)
 
-    groupedNotes = frames[namedNotes.frameName].groupNotes(namedNotes.distance)
+    groupedNotes = frames[namedNotes.frameName].groupNotes(namedNotes.distance, namedNotes.colorsName.values())
     
     return grouptedNotesToJSON(namedNotes, groupedNotes)

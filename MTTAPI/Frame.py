@@ -26,7 +26,8 @@ class Frame:
                 return lists
         return []
 
-    def groupNotes(self, distanceValue):
+    def groupNotes(self, distanceValue, namedNotes):
+        print(namedNotes)
         backroundColorGrouped = {}
         for key in dict.keys(self.backroundColorChildren):
             notes = self.backroundColorChildren[key]
@@ -37,11 +38,11 @@ class Frame:
                 if len(tempList) > 0:
                     isNewList = False
                 for note2 in notes:
-                    if note.distanceBetweenNotes(note2) < distanceValue:
+                    if note.distanceBetweenNotes(note2) < distanceValue and note.text not in namedNotes:
                         output = Frame.findInList(tempList, note2)
                         if len(output) == 0:
                             tempList.append(note2.text)
-                if isNewList:
+                if isNewList and len(tempList) > 0:
                     noteGroups.append(tempList)
             backroundColorGrouped[key] = noteGroups
         return backroundColorGrouped

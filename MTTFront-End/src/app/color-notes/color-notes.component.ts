@@ -1,4 +1,6 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Frame } from '../frameInterface';
+import { selectedNotes } from '../selectedNotesInterface';
 
 //TODO: change name to preGenetatingTabelInput
 
@@ -10,23 +12,29 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 export class ColorNotesComponent {
   @Output() formValue = new EventEmitter();
-  listInput: string[] = ["a","a","a","a","a","a","a","a"];
-
-  listOfColors = [
-    "#f5d128",
-    "#fff9b1",
-    "#93d275",
-    "#6cd8fa",
-    "#7b92ff"
-  ];
-
-  listOfFrames = ["Frame 1", "Frame 2"];
-
-  
-
-  submit(form: any) {
-    this.formValue.emit(form.value);
+  selectedFrame: string = "";
+  @Input() frames: Array<Frame> = []
+  selectedNotes: selectedNotes = {
+    frameName: "",
+    distance: 300,
+    colorsName: {}
   }
 
+  submit(form: any) {
+    this.formValue.emit(this.selectedNotes);
+  }
 
+  addToTheDict(color: string) {
+    if (color in this.selectedNotes.colorsName) {
+      return true;
+    }
+
+    this.selectedNotes.colorsName[color] = "";
+    console.log(this.selectedNotes.colorsName[color])
+    return true;
+  }
+
+  cleanDict() {
+    this.selectedNotes.colorsName = {}
+  }
 }

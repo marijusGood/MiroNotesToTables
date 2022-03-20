@@ -1,4 +1,6 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { RowData, TableOfRows } from '../rowDataInterface';
+import { tableContent } from '../tableContentInterface';
 
 @Component({
   selector: 'generatedTable',
@@ -7,40 +9,19 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 
 export class TablesComponent {
-  @Input() tableName: string = "IT";
-  @Input() tableContent: RowDataList = [
-    {
-      Priority: 0,
-      Summary: "d\ndasd",
-      DesiredState: "w",
-      ActionsEngX: "k",
-      ActionsEngineers: "f"
-    },
-    {
-      Priority: 1,
-      Summary: "dd",
-      DesiredState: "ww",
-      ActionsEngX: "kk",
-      ActionsEngineers: "ff"
-    }
-  ];
+  @Input()
+  table!: TableOfRows;
+  @Output() formValue = new EventEmitter();
 
   sortArray() {
-    var myClonedArray: RowDataList = [];
-    this.tableContent.forEach(val => myClonedArray.push(Object.assign({}, val)));
+    var myClonedArray: Array<RowData> = [];
+    this.table.Rows.forEach(val => myClonedArray.push(Object.assign({}, val)));
     myClonedArray.sort((a, b) => b.Priority - a.Priority);
-    this.tableContent = myClonedArray;
+    this.table.Rows = myClonedArray;
+    this.formValue.emit(this.table);
   }
-  
 
+  sendUpdate() {
+    this.formValue.emit(this.table);
+  }
 }
-
-interface RowData {
-  Priority: number;
-  Summary: string;
-  DesiredState?: string;
-  ActionsEngX?: string;
-  ActionsEngineers?: string;
-}
-
-interface RowDataList extends Array<RowData>{}
