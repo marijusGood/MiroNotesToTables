@@ -2,6 +2,7 @@
 tasks:
   - init: pip install -r requirements.txt
     command: |
+              pip install -r requirements.txt
               cd MTTAPI
               uvicorn main:app --reload
   - init: npm install -g npm && cd MTTFront-End && npm install
