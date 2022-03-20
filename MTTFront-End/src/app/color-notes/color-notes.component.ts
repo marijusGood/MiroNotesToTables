@@ -30,7 +30,6 @@ export class ColorNotesComponent {
     }
 
     this.selectedNotes.colorsName[color] = "";
-    console.log(this.selectedNotes.colorsName[color])
     return true;
   }
 

@@ -27,7 +27,6 @@ export class HTMLCodeCreator {
         
         for (let i = 0; i < tableData.Rows.length; i++) {
             let listOfLines = tableData.Rows[i].Summary.split(/\r?\n/);
-            console.log(listOfLines);
             HTMLCode += `<tr>\n`;
             HTMLCode += `<td colspan="1">` + tableData.Rows[i].Priority + `</td>\n`;
             HTMLCode += `<td colspan="1">\n`;

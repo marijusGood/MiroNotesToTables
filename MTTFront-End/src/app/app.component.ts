@@ -81,8 +81,6 @@ export class AppComponent {
   }
 
   updateTableContent(formValue: TableOfRows, table: TableOfRows) {
-    console.log(formValue);
     table = formValue;
-    console.log(this.tables);
   }
 }
