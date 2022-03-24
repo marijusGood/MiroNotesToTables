@@ -11,6 +11,7 @@ export class DistanceBetweenNotesComponent {
   @Input() token: string = "";
   @Input() board:string = "";
   @Input() frames: Array<string> = [];
+  @Input() APILink!:string;
   selectedFrame: string = "";
   result: number | undefined;
 
@@ -25,7 +26,7 @@ export class DistanceBetweenNotesComponent {
     .set('token', this.token)
     .set('board', this.board);
 
-    this.http.get<number>('http://127.0.0.1:8000/distance-between-notes/' + this.selectedFrame + '/', {params}).subscribe(response =>{
+    this.http.get<number>(this.APILink + '/distance-between-notes/' + this.selectedFrame + '/', {params}).subscribe(response =>{
       this.result = Math.round(response);
     });
 

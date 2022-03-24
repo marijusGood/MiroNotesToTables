@@ -1,7 +1,7 @@
 <main class="page contact-page">
     <div style="text-align: center;">
         <miro-config (formValue)="miroFormInfo($event)"></miro-config>
-        <distance-between-notes [token]="token" [board]="board" [frames]="frameList" [hidden]="frames.length == 0"></distance-between-notes>
+        <distance-between-notes [token]="token" [board]="board" [frames]="frameList" [APILink]="APILink" [hidden]="frames.length == 0"></distance-between-notes>
         <preGenetatingTabelInput (formValue)="selcetedNotes($event)" [frames]="frames" [hidden]="frames.length == 0"></preGenetatingTabelInput>
     </div>
     <div id="tableDIV" *ngFor="let table of tables">

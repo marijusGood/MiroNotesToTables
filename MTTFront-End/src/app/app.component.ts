@@ -11,6 +11,7 @@ import { tableContent } from './tableContentInterface';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  APILink: string = "http://127.0.0.1:8000";
   board: string = "";
   token: string = "";
   frames: Array<Frame> = [];
@@ -31,7 +32,7 @@ export class AppComponent {
     .set('token', this.token)
     .set('board', this.board);
 
-    this.http.get<Array<Frame>>('http://127.0.0.1:8000/frames/', {params}).subscribe(response =>{
+    this.http.get<Array<Frame>>(this.APILink + '/frames/', {params}).subscribe(response =>{
 
       this.frames = response;
       this.frames.forEach(frame => {
@@ -48,7 +49,7 @@ export class AppComponent {
     .set('token', this.token)
     .set('board', this.board);
 
-    this.http.post<Array<tableContent>>('http://127.0.0.1:8000/table/',
+    this.http.post<Array<tableContent>>(this.APILink + '/table/',
                                         JSON.stringify(formValue),
                                         {headers: headers, params: params})
      .subscribe(response =>{
